@@ -1,0 +1,2293 @@
+﻿@model HomeVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<main>
+    <section id="slider">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6">
+                    @foreach (var item in Model.Sliders)
+                    {
+                        <div class="content first-slider active-slider">
+                            <span>Starting at <b>$@item.Price</b></span>
+                            <h1>@item.Description</h1>
+                            <p>Exclusive offer <span>@item.Offer</span> off this week<img src="~/assets/images/Slider-1 gallery/slider-line.svg" alt=""></p>
+                            <a href="">Shop Now <img src="~/assets/images/@item.Image" alt=""></a>
+                            <img src="~/assets/images/Slider-1 gallery/slider-shadow1.png" alt="" class="shape1">
+                            <img src="~/assets/images/Slider-1 gallery/slider-shadow2.png" alt="" class="shape2">
+                            <img src="~/assets/images/Slider-1 gallery/slider-shadow3.png" alt="" class="shape3">
+                            <img src="~/assets/images/Slider-1 gallery/slider-shadow4.png" alt="" class="shape4">
+                        </div>
+                    }
+                </div>
+                <div class="col-6">
+                    <div class="image first-slider-image active-image">
+                        <img src="~/assets/images/Slider-1 gallery/img-1.png" alt="">
+                    </div>
+                    <div class="image second-slider-image">
+                        <img src="~/assets/images/Slider-1 gallery/img-2.png" alt="">
+                    </div>
+                    <div class="image third-slider-image">
+                        <img src="~/assets/images/Slider-1 gallery/img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <a href="" class="left"><img src="~/assets/images/Slider-1 gallery/left-arrow.svg" alt=""></a>
+            <a href="" class="right"><img src="~/assets/images/Slider-1 gallery/right-arrow.svg" alt=""></a>
+        </div>
+        <div class="pages">
+            <div class="dot first-dot active-dot"></div>
+            <div class="dot second-dot"></div>
+            <div class="dot third-dot"></div>
+        </div>
+    </section>
+
+
+
+    <section id="product-category">
+        <div class="container-main">
+            <div class="row">
+                <div class="col">
+                    <div class="categoryofproduct">
+                        <a href="">
+                            <img src="~/assets/images/category's-headphone.png" alt="">
+                        </a>
+                        <h6>Headphones</h6>
+                        <span>3 Product</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categoryofproduct">
+                        <a href="">
+                            <img src="~/assets/images/category's-mobile.png" alt="">
+                        </a>
+                        <h6>Mobile Tablets</h6>
+                        <span>3 Product</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categoryofproduct">
+                        <a href="">
+                            <img src="~/assets/images/category's-pc.png" alt="">
+                        </a>
+                        <h6>CPU Heat Pipes</h6>
+                        <span>2 Product</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categoryofproduct">
+                        <a href="">
+                            <img src="~/assets/images/category's-watch.png" alt="">
+                        </a>
+                        <h6>Smart Watch</h6>
+                        <span>3 Product</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categoryofproduct">
+                        <a href="">
+                            <img src="~/assets/images/category's-bluetooth-headphones.png" alt="">
+                        </a>
+                        <h6>Bluetooth</h6>
+                        <span>2 Product</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="feature-area">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-3">
+                    <div class="object">
+                        <img src="~/assets/icons/feature-truck-icon.svg" alt="">
+                        <div class="content">
+                            <h6>Free Delivery</h6>
+                            <span>Orders from all item</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="object">
+                        <img src="~/assets/icons/feature-currency-icon.svg" alt="">
+                        <div class="content">
+                            <h6>Return & Refund</h6>
+                            <span>Money back guarantee</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="object">
+                        <img src="~/assets/icons/feature-discount-icon.svg" alt="">
+                        <div class="content">
+                            <h6>Member Discount</h6>
+                            <span>Onevery order over $140.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="object">
+                        <img src="~/assets/icons/feature-support-icon.svg" alt="">
+                        <div class="content">
+                            <h6>Support 24/7</h6>
+                            <span>Contact us 24 hours a day</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="products">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title">
+                        <h1>
+                            Trending Products
+                            <img src="~/assets/icons/products-line.svg" alt="">
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="product-category">
+                        <ul>
+                            <li><a href="" class="new-product active">New<img src="~/assets/icons/tabmenu-line.svg" alt=""></a></li>
+                            <li><a href="" class="featured-product">Featured <img src="~/assets/icons/tabmenu-line.svg" alt=""></a></li>
+                            <li><a href="" class="top-product">Top Sellers <img src="~/assets/icons/tabmenu-line.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-products-list">
+            <div class="container-main">
+                <div class="row row-gap-3">
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/1st-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Headphones Wireless</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$120</span>
+                                    <span class="new-price">$<span>103.20</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/cat1-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Gaming Headphone</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$130</span>
+                                    <span class="new-price">$<span>123.50</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product out-of-stock">
+                            <div class="image">
+                                <img src="~/assets/images/jbl-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="out-stock">
+                                    <span>Out-Of-Stock</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Headphonee with Mic</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>110.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/galaxy-android.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">Galaxy Android Tablet</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$320</span>
+                                    <span class="new-price">$<span>288.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/iphone-14pro.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">iPhone 14 Pro</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$1199</span>
+                                    <span class="new-price">$<span>1019.15</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/ipad-mini.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">Apple iPad Air</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$999</span>
+                                    <span class="new-price">$<span>949.05</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/deepcool-air.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">CPU Heat Pipes</a>
+                                <a href="" class="product-name">DeepCool Air Cooler</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$ <span>80.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/antec-air.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">CPU Heat Pipes</a>
+                                <a href="" class="product-name">Antec Air Cooler</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>80.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-products-list d-none">
+            <div class="container-main">
+                <div class="row row-gap-3">
+                    <div class="col-3">
+                        <div class="product out-of-stock">
+                            <div class="image">
+                                <img src="~/assets/images/jbl-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="out-stock">
+                                    <span>Out-Of-Stock</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Headphonee with Mic</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>110.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/iphone-14pro.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">iPhone 14 Pro</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$1199</span>
+                                    <span class="new-price">$<span>1019.15</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/ipad-mini.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">Apple iPad Air</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$999</span>
+                                    <span class="new-price">$<span>949.05</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/black-applewatch.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Smart Watch</a>
+                                <a href="" class="product-name">Sony Lady Fitness Watch</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$150</span>
+                                    <span class="new-price">$<span>145.50</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-products-list d-none">
+            <div class="container-main">
+                <div class="row row-gap-3">
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/cat1-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Headphones Wireless</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$120</span>
+                                    <span class="new-price">$<span>103.20</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/1st-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Gaming Headphone</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$130</span>
+                                    <span class="new-price">$<span>123.50</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product out-of-stock">
+                            <div class="image">
+                                <img src="~/assets/images/jbl-headphone.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="out-stock">
+                                    <span>Out-Of-Stock</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Headphones</a>
+                                <a href="" class="product-name">Headphonee with Mic</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>110.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/galaxy-android.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">Galaxy Android Tablet</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$320</span>
+                                    <span class="new-price">$<span>288.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/iphone-14pro.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">iPhone 14 Pro</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$1199</span>
+                                    <span class="new-price">$<span>1019.15</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/ipad-mini.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">Mobile Tablets</a>
+                                <a href="" class="product-name">Apple iPad Air</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price">$999</span>
+                                    <span class="new-price">$<span>949.05</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/deepcool-air.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">CPU Heat Pipes</a>
+                                <a href="" class="product-name">DeepCool Air Cooler</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>80.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <img src="~/assets/images/antec-air.png" alt="">
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="add-basket">
+                                                <img src="~/assets/icons/add-basket.svg" alt="">
+                                                <span class="tools-text">Add to Cart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="product-details">
+                                                <img src="~/assets/icons/product-details.svg" alt="">
+                                                <span class="tools-text">Quick View</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="add-wishlist">
+                                                <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                <span class="tools-text">Add to Wishlist</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="" class="card-product-category">CPU Heat Pipes</a>
+                                <a href="" class="product-name">Antec Air Cooler</a>
+                                <div class="user-ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>(7 Review)</span>
+                                </div>
+                                <div class="price">
+                                    <span class="old-price d-none"></span>
+                                    <span class="new-price">$<span>80.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="banner">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-8">
+                    <div class="left-side">
+                        <div class="banner-content">
+                            <span>Sale 20% off all store</span>
+                            <a href="">Smartphone<br>BLU G91 Pro 2022</a>
+                            <a href="" class="button">Shop Now <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                            <div class="banner-image"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="right-side">
+                        <div class="banner-content">
+                            <a href="">HyperX Cloud II<br>Wireless</a>
+                            <span>Sale 35% off</span>
+                            <a href="" class="button">Shop Now <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                            <div class="banner-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="dealofday">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6">
+                    <div class="title">
+                        <h1>
+                            Deal of The Day
+                            <img src="~/assets/icons/products-line.svg" alt="">
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="view-all">
+                        <a href="">View All Deals <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/cat1-headphone.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Headphones</a>
+                            <a href="" class="product-name">Gaming Headphone</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$130</span>
+                                <span class="new-price">$<span>123.50</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/antec-air.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">CPU Heat Pipes</a>
+                            <a href="" class="product-name">Antec Air Cooler</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="new-price">$<span>80.00</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/black-applewatch.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Smart Watch</a>
+                            <a href="" class="product-name">Sony Lady Fitness Watch</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$150</span>
+                                <span class="new-price">$<span>145.50</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="product-gadget-area">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-4">
+                    <div class="left-side">
+                        <div class="electronics-gadgets">
+                            <h6>Electronics <br>Gadgets</h6>
+                            <ul>
+                                <li><a href="">Microscope</a></li>
+                                <li><a href="">Remote Control</a></li>
+                                <li><a href="">Monitor</a></li>
+                                <li><a href="">Thermometer</a></li>
+                                <li><a href="">Backpack</a></li>
+                                <li><a href="">Headphones</a></li>
+                            </ul>
+                            <a href="">More Products <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                            <img src="~/assets/images/brunette-girl.png" alt="">
+                        </div>
+
+                        <div class="novelty">
+                            <span>Only $99.00</span>
+                            <a href="">Selected novelty<br>Products</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="image">
+                                    <img src="~/assets/images/1st-headphone.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Headphones</a>
+                                    <a href="" class="product-name">Headphones Wireless</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price">$120</span>
+                                        <span class="new-price">$<span>103.20</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="image">
+                                    <img src="~/assets/images/cat1-headphone.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Headphones</a>
+                                    <a href="" class="product-name">Gaming Headphone</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price">$130</span>
+                                        <span class="new-price">$<span>123.50</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product out-of-stock">
+                                <div class="image">
+                                    <img src="~/assets/images/jbl-headphone.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="out-stock">
+                                        <span>Out-Of-Stock</span>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Headphones</a>
+                                    <a href="" class="product-name">Headphonee with Mic</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price d-none"></span>
+                                        <span class="new-price">$<span>110.00</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="image">
+                                    <img src="~/assets/images/galaxy-android.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Mobile Tablets</a>
+                                    <a href="" class="product-name">Galaxy Android Tablet</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price">$320</span>
+                                        <span class="new-price">$<span>288.00</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="image">
+                                    <img src="~/assets/images/iphone-14pro.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Mobile Tablets</a>
+                                    <a href="" class="product-name">iPhone 14 Pro</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price">$1199</span>
+                                        <span class="new-price">$<span>1019.15</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="image">
+                                    <img src="~/assets/images/ipad-mini.png" alt="">
+                                    <div class="product-action">
+                                        <ul>
+                                            <li>
+                                                <a href="" class="add-basket">
+                                                    <img src="~/assets/icons/add-basket.svg" alt="">
+                                                    <span class="tools-text">Add to Cart</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="product-details">
+                                                    <img src="~/assets/icons/product-details.svg" alt="">
+                                                    <span class="tools-text">Quick View</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="add-wishlist">
+                                                    <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                                    <span class="tools-text">Add to Wishlist</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <a href="" class="card-product-category">Mobile Tablets</a>
+                                    <a href="" class="product-name">Apple iPad Air</a>
+                                    <div class="user-ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>(7 Review)</span>
+                                    </div>
+                                    <div class="price">
+                                        <span class="old-price">$999</span>
+                                        <span class="new-price">$<span>949.05</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="slider-2-tablet">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tablet-slider">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="content first-slider active-slider">
+                                    <span>TABLET COLLECTION 2023</span>
+                                    <h1> Galaxy Tab S6 Lite Android Tablet </h1>
+                                    <span class="old-price">$320.00</span>
+                                    <span class="new-price">$288.00</span>
+                                    <a href="">Shop Now</a>
+                                </div>
+                                <div class="content second-slider">
+                                    <span>TABLET COLLECTION 2023</span>
+                                    <h1> Galaxy Tab S6 Lite Android Tablet </h1>
+                                    <span class="old-price">$320.00</span>
+                                    <span class="new-price">$288.00</span>
+                                    <a href="">Shop Now</a>
+                                </div>
+                                <div class="content third-slider">
+                                    <span>TABLET COLLECTION 2023</span>
+                                    <h1> Galaxy Tab S6 Lite Android Tablet </h1>
+                                    <span class="old-price">$320.00</span>
+                                    <span class="new-price">$288.00</span>
+                                    <a href="">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="image first-image active-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-1.png" alt="" class="slider-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-discount.png" alt="" class="discount">
+                                </div>
+                                <div class="image second-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-2.png" alt="" class="slider-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-discount.png" alt="" class="discount">
+                                </div>
+                                <div class="image third-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-3.png" alt="" class="slider-image">
+                                    <img src="~/assets/images/slider-2-galerry/slider-discount.png" alt="" class="discount">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pages">
+                            <div class="dot first-dot active-dot"></div>
+                            <div class="dot second-dot"></div>
+                            <div class="dot third-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="new-arrivals">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6">
+                    <div class="title">
+                        <h1>
+                            New Arrivals
+                            <img src="~/assets/icons/products-line.svg" alt="">
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="controllers">
+                        <div class="left"><img src="~/assets/icons/left-arrow.svg" alt=""></div>
+                        <div class="right"><img src="~/assets/icons/right-arrow.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/sport-band.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Smart Watch</a>
+                            <a href="" class="product-name">Apple Watch Sport Band</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$449</span>
+                                <span class="new-price">$<span>426.55</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/sony-watch.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Smart Watch</a>
+                            <a href="" class="product-name">Sony Smart Watch</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$200</span>
+                                <span class="new-price">$<span>190.00</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/black-applewatch.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Smart Watch</a>
+                            <a href="" class="product-name">Sony Lady Fitness Watch</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$150</span>
+                                <span class="new-price">$<span>145.50</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="~/assets/images/lenovo-wireless-bluetooth.png" alt="">
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-basket">
+                                            <img src="~/assets/icons/add-basket.svg" alt="">
+                                            <span class="tools-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="product-details">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tools-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-wishlist">
+                                            <img src="~/assets/icons/add-wishlist.svg" alt="">
+                                            <span class="tools-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Bluetooth</a>
+                            <a href="" class="product-name">Lenovo Wireless Bluetooth</a>
+                            <div class="user-ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(7 Review)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">$70</span>
+                                <span class="new-price">$<span>66.50</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="filtered-products">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-4">
+                    <div class="discount-products">
+                        <div class="title">
+                            <h1>Discount Products<img src="~/assets/icons/products-line.svg" alt=""></h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/1st-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Headphones Wireless</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(3 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$120</span>
+                                                    <span class="new-price">$103.20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/cat1-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Gaming Headphone</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(2 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$130</span>
+                                                    <span class="new-price">$123.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/galaxy-android.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Mobile Tablets</span>
+                                                <a href="">Galaxy Android Tablet</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(2 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$320</span>
+                                                    <span class="new-price">$288.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="featured-products">
+                        <div class="title">
+                            <h1>
+                                Featured Products
+                                <img src="~/assets/icons/products-line.svg" alt="">
+                            </h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/jbl-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Headphone with Mic</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(3 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price d-none">$70</span>
+                                                    <span class="new-price">$110.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/iphone-14pro.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Mobile Tablets</span>
+                                                <a href="">iPhone 14 Pro</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(2 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$1199</span>
+                                                    <span class="new-price">$1019.15</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/ipad-mini.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Mobile Tablets</span>
+                                                <a href="">Apple iPad Air</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(2 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$999</span>
+                                                    <span class="new-price">$949.05</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="selling-products">
+                        <div class="title">
+                            <h1>
+                                Selling Products
+                                <img src="~/assets/icons/products-line.svg" alt="">
+                            </h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/cat1-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Gaming Headphone</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(2 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$130</span>
+                                                    <span class="new-price">$123.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/1st-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Headphones Wireless</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(3 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="old-price">$120</span>
+                                                    <span class="new-price">$103.20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="products">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="image">
+                                                <a href=""><img src="~/assets/images/jbl-headphone.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="product-details">
+                                                <span>Headphones</span>
+                                                <a href="">Headphones with Mic</a>
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>(3 Review)</span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="new-price">$110.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latest-articles">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6">
+                    <div class="title">
+                        <h1>
+                            Latest news & articles
+                            <img src="~/assets/icons/products-line.svg" alt="">
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="view-all-blog">
+                        <a href="">View All Blog <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="news">
+                        <div class="image">
+                            <img src="~/assets/images/1st-news.jpg" alt="">
+                            <span class="date">14 January, 2023</span>
+                        </div>
+                        <div class="content">
+                            <a href="">The Modern Art Clay Ceramics</a>
+                            <span><i class="fa-solid fa-tag"></i>Tablet,<span>News</span></span>
+                            <p>The world is an amazing place providing an incredible assortment of interesting locations across.</p>
+                            <a href="" class="read-more">Read More <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="news">
+                        <div class="image">
+                            <img src="~/assets/images/2nd-news.jpg" alt="">
+                            <span class="date">18 February, 2023</span>
+                        </div>
+                        <div class="content">
+                            <a href="">How clothes are linked to climate</a>
+                            <span><i class="fa-solid fa-tag"></i>Tablet,<span>News</span></span>
+                            <p>The world is an amazing place providing an incredible assortment of interesting locations across.</p>
+                            <a href="" class="read-more">Read More <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="news">
+                        <div class="image">
+                            <img src="~/assets/images/3rd-news.jpg" alt="">
+                            <span class="date">20 January, 2023</span>
+                        </div>
+                        <div class="content">
+                            <a href="">The Sound Of Fashion: Malcolm</a>
+                            <span><i class="fa-solid fa-tag"></i>Tablet,<span>News</span></span>
+                            <p>The world is an amazing place providing an incredible assortment of interesting locations across.</p>
+                            <a href="" class="read-more">Read More <img src="~/assets/icons/shop-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram-area">
+        <div class="container-main">
+            <div class="row">
+                <div class="col">
+                    <div class="image">
+                        <img src="~/assets/images/instagram-image-1.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cover"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="~/assets/images/instagram-image-2.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cover"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="~/assets/images/instagram-image-3.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cover"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="~/assets/images/instagram-image-4.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cover"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="~/assets/images/instagram-image-5.jpg" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cover"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe-area">
+        <div class="container-main">
+            <img src="~/assets/images/subscribe-shape-1.png" alt="" class="shape1">
+            <img src="~/assets/images/subscribe-shape-2.png" alt="" class="shape2">
+            <img src="~/assets/images/subscribe-shape-3.png" alt="" class="shape3">
+            <img src="~/assets/images/subscribe-shape-4.png" alt="" class="shape4">
+            <div class="row">
+                <div class="col-7">
+                    <div class="left-side">
+                        <span>SALE 20% OFF ALL STORE</span>
+                        <h1>Subscribe our Newsletter</h1>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="right-side">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button>Subscribe</button>
+                        <img src="~/assets/images/paper-plane.png" alt="" class="shape5">
+                        <img src="~/assets/images/subscribe-shape.svg" alt="" class="shape6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+

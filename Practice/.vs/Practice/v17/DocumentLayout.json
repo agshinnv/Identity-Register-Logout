@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
+              "RelativeToolTip": "Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T22:43:29.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAADwv2gAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T21:51:09.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T21:36:20.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

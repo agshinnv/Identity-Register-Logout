@@ -1,0 +1,62 @@
+﻿@model ProductEditVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section js{
+    <script src="~/js/script.js"></script>
+}
+
+<div class="container mt-5">
+    <h3 class="text-center text-success">Edit product</h3>
+    <div class="product-images d-flex mt-3" style="gap:15px">
+        @foreach (var item in Model.ExistImages)
+        {
+            <div class="product-item delete-image" style="position:relative">
+                <img src="~/img/@item.Image" class="@(item.IsMain ? "main-product-image" : "")" style="width:150px;height:150px;" />
+                @if (!item.IsMain)
+                {
+                    <button class="btn btn-danger delete-image-btn" data-image-id = "@item.Id" data-product-id = "@item.ProductId" style="position:absolute; top:60px; left:55px; opacity:0; "><i class="mdi mdi-delete-empty"></i></button>
+                    <button class="btn btn-danger set-main-image-btn" data-image-id = "@item.Id" data-product-id = "@item.ProductId" style="position:absolute; top:108px; left:70px; opacity:0; "><i class="mdi mdi-lock"></i></button>
+                }
+            </div>
+            
+        }
+    </div>
+    <form class="form-horizontal form-material mx-2 mt-3" method="post" asp-action="Edit" enctype="multipart/form-data">
+        <div class="form-group">
+            <div class="col-md-12 mt-3">
+                <input asp-for="Name" placeholder="Name" class="form-control form-control-line" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="col-md-12 mt-3">
+                <input asp-for="Description" placeholder="Description" class="form-control form-control-line mt-4" />
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <div class="col-md-12 mt-3">
+                <input asp-for="Price" type="number" placeholder="Price" class="form-control form-control-line mt-4" />
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+
+            <label class="mt-4 font-bold">Category</label>
+            <select asp-for="CategoryId" asp-items="@ViewBag.categories" class="form-control form-control-line">
+            </select>
+
+            <label class="mt-4">Images</label>
+            <div class="col-md-12 mt-3">
+                <input asp-for="NewImages" class="form-control form-control-line" />
+                <span class="text-danger" asp-validation-for="NewImages"></span>
+            </div>
+
+        </div>
+        <div class="form-group mt-3">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-success">Submit</button>
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+        </div>
+    </form>
+</div>

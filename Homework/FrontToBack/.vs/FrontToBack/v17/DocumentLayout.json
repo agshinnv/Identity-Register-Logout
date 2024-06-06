@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\homework\\fronttoback\\fronttoback\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\homework\\fronttoback\\fronttoback\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\homework\\fronttoback\\fronttoback\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\homework\\fronttoback\\fronttoback\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CC9F1-F632-42EE-946E-45B1E1BCAC3C}|FrontToBack\\FrontToBack.csproj|solutionrelative:fronttoback\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontToBack\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "FrontToBack\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T23:10:49.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "FrontToBack\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "FrontToBack\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T23:09:28.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FrontToBack\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "FrontToBack\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T23:06:17.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FrontToBack\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Homework\\FrontToBack\\FrontToBack\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "FrontToBack\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAuwKcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T20:03:36.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

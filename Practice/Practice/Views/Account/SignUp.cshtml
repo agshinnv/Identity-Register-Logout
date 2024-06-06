@@ -1,0 +1,45 @@
+﻿@model RegisterVM
+
+@{
+    ViewData["Title"] = "SignUp";
+}
+
+
+
+<div class="container mt-5">
+    <h1 class="text-center">Sign Up</h1>
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <div class="register-area mt-5 mb-5" style="width:50%; margin: 0 auto;">
+        <form method="post" asp-action="SignUp">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input asp-for="Username" autocomplete="off" class="form-control" id="exampleInputEmail1" aria-describedy="emailHelp" />
+                <span class="text-danger" asp-validation-for="Username"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Full Name</label>
+                <input asp-for="FullName" autocomplete="off" class="form-control" id="exampleInputEmail1" aria-describedy="emailHelp" />
+                <span class="text-danger" asp-validation-for="FullName"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input asp-for="Email" autocomplete="off" type="text" class="form-control" id="exampleInputEmail1" />
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Password</label>
+                <input asp-for="Password" class="form-control" id="exampleInputPassword1" />
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Confirm Password</label>
+                <input asp-for="ConfirmPassword" class="form-control" id="exampleInputPassword1" />
+                <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+            </div>
+            <div class="button-div d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Sign up</button>
+            </div>
+        </form>
+    </div>
+</div>
+

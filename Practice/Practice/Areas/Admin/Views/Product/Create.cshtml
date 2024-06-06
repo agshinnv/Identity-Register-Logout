@@ -1,0 +1,45 @@
+﻿@model ProductCreateVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-5">
+    <h3 class="text-center text-success">Create new product</h3>
+    <form class="form-horizontal form-material mx-2 mt-3" method="post" asp-action="Create" enctype="multipart/form-data">
+        <div class="form-group">
+            <div class="col-md-12 mt-3">
+                <input asp-for="Name" placeholder="Name" class="form-control form-control-line" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="col-md-12 mt-3">
+                <input asp-for="Description" placeholder="Description" class="form-control form-control-line mt-4" />
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <div class="col-md-12 mt-3">
+                <input asp-for="Price" type="number" placeholder="Price" class="form-control form-control-line mt-4" />
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+
+            <label class="mt-4 font-bold">Category</label>
+            <select asp-for="CategoryId" asp-items="@ViewBag.categories" class="form-control form-control-line">
+            </select>
+
+            <label class="mt-4">Images</label>
+            <div class="col-md-12 mt-3">
+                <input asp-for="Images" class="form-control form-control-line" />
+                <span class="text-danger" asp-validation-for="Images"></span>
+            </div>
+
+        </div>
+        <div class="form-group mt-3">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-success">Submit</button>
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
