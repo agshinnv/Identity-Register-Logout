@@ -26,7 +26,7 @@ namespace Practice.Areas.Admin.Controllers
         {
             List<Slider> sliders = await _context.Sliders.ToListAsync();
 
-            List<SliderVM> result = sliders.Select(m=> new SliderVM { Id = m.Id, Image = m.Image }).ToList(); ;
+            List<SliderVM> result = sliders.Select(m=> new SliderVM { Id = m.Id, Image = m.Image }).ToList();
 
             return View(result);
         }

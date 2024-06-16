@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\viewmodels\\headervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\viewmodels\\headervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\areas\\admin\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\areas\\admin\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\services\\interfaces\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\services\\interfaces\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|c:\\users\\agshin\\desktop\\fullstackdeveloper\\backend\\asp.net\\identity-register-logout\\practice\\practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F02B7F-C97F-4223-982A-8352F1871DD1}|Practice\\Practice.csproj|solutionrelative:practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +38,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeaderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\ViewModels\\HeaderVM.cs",
+              "RelativeDocumentMoniker": "Practice\\ViewModels\\HeaderVM.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\ViewModels\\HeaderVM.cs",
+              "RelativeToolTip": "Practice\\ViewModels\\HeaderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:42:48.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISettingService.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Services\\Interfaces\\ISettingService.cs",
+              "RelativeDocumentMoniker": "Practice\\Services\\Interfaces\\ISettingService.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Services\\Interfaces\\ISettingService.cs",
+              "RelativeToolTip": "Practice\\Services\\Interfaces\\ISettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:40:39.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
-              "RelativeToolTip": "Practice\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T22:43:29.323Z",
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Services\\SettingService.cs",
+              "RelativeDocumentMoniker": "Practice\\Services\\SettingService.cs",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Services\\SettingService.cs",
+              "RelativeToolTip": "Practice\\Services\\SettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T22:23:00.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Practice\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAADwv2gAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T21:51:09.817Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Practice\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T22:24:39.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Practice\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwHkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T21:36:20.534Z",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Agshin\\Desktop\\FullStackDeveloper\\Backend\\Asp.net\\Identity-Register-Logout\\Practice\\Practice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Practice\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T22:23:57.725Z",
               "EditorCaption": ""
             }
           ]
